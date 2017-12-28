@@ -1,13 +1,24 @@
 {
   "name": "amcgowanca/drupal-behat-tests",
   "description": "A proven methodology for testing configuration oriented aspects of a Drupal 8 build (e.g. content model, user roles, permissions, etc.).",
-  "type": "",
+  "type": "library",
   "license": "GPL-2.0+",
+  "authors": [
+    {
+      "name": "Aaron McGowan",
+      "email": "me@amcgowan.ca"
+    }
+  ],
   "minimum-stability": "dev",
   "prefer-stable": true,
   "require-dev": {
     "drupal/drupal-extension": "~3.3.0",
     "traviscarden/behat-table-comparison": "^0.2.1"
   },
-  "require": { }
+  "require": { },
+  "autoload": {
+    "psr-4": {
+      "AaronMcGowan\\Drupal\\Behat\\Context\\": "src/Drupal/Behat/Context/"
+    }
+  }
 }
