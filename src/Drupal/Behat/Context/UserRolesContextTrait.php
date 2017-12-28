@@ -22,7 +22,7 @@ trait UserRolesContextTrait {
     $actual = new TableNode($roles);
 
     $assertion = new TableEqualityAssertion($expected, $actual);
-    $assertion->expectedHeader(['label', 'machine name'])
+    $assertion->expectHeader(['label', 'machine name'])
       ->ignoreRowOrder()
       ->setMissingRowsLabel('Missing roles')
       ->setUnexpectedRowsLabel('Unexpected roles')
