@@ -7,8 +7,7 @@ Feature: User roles
 
   Scenario: User roles
     Then exactly the following roles should exist
-      | label          | machine name   |
-      | Anonymous user | anonymous      |
-      | Administrator  | administrator  |
-      | Authenticated  | authenticated  |
-      | Content editor | content_editor |
+      | label              | machine name  |
+      | Anonymous user     | anonymous     |
+      | Administrator      | administrator |
+      | Authenticated user | authenticated |
