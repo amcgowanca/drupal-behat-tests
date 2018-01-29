@@ -2,7 +2,7 @@
   "name": "amcgowanca/drupal-behat-tests",
   "description": "A proven methodology for testing configuration oriented aspects of a Drupal 8 build (e.g. content model, user roles, permissions, etc.).",
   "type": "library",
-  "license": "GPL-2.0+",
+  "license": "GPL-2.0-or-later",
   "authors": [
     {
       "name": "Aaron McGowan",
